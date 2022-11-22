@@ -1,0 +1,14 @@
+# local .terraform dir
+.terraform/*
+
+# tf state files
+*.tfstate
+*.tfstate.*
+
+# variable files, may include sensitive defaultValue
+# *.tfvars
+
+*DS_Store
+
+# ignore carsh logs
+crash.log
